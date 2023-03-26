@@ -1,0 +1,21 @@
+CREATE TABLE appliances (id INTEGER PRIMARY KEY, item TEXT, price INTEGER, quality TEXT);
+
+INSERT INTO appliances VALUES(1, "refrigerator", 500, "excellent");
+INSERT INTO appliances VALUES(2, "dishwasher", 300, "good");
+INSERT INTO appliances VALUES(3, "microwave", 200, "excellent");
+INSERT INTO appliances VALUES (4, "washer", 350, "good");
+INSERT INTO appliances VALUES (5, "dryer", 350, "exellent");
+INSERT INTO appliances VALUES (6, "oven", 450, "good");
+INSERT INTO appliances VALUES (7, "freezer", 200, "good");
+INSERT INTO appliances VALUES (8, "coffee maker", 40, "excellent");
+INSERT INTO appliances VALUES (9, "food processor", 50, "excellent");
+INSERT INTO appliances VALUES (10, "television", 250, "excellent");
+INSERT INTO appliances VALUES (11, "toaster", 25, "good");
+INSERT INTO appliances VALUES (12, "space heater", 50, "good");
+INSERT INTO appliances VALUES (13, "speakers", 100, "excellent");
+INSERT INTO appliances VALUES (14, "wine cooler", 175, "excellent");
+INSERT INTO appliances VALUES (15, "electric grill", 400, "excellent");
+
+SELECT * FROM appliances ORDER BY price;
+
+SELECT * FROM appliances WHERE price < 100; 
